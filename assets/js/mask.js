@@ -1,9 +1,9 @@
 const phoneMask = new Inputmask({
-  mask: '+359(9)999-9999',
+  mask: '+359(000)000-0000',
+  lazy: false,
   definitions: {
-    9: {
+    0: {
       validator: '[0-9]',
-      cardinality: 1,
     },
   },
   prepare: function (value, masked) {
